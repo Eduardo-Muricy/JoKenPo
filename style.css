@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1501908734255-16579c18c25f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlLF9nbHx8fHx8fDE2ODgyMzE5NjA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+button:hover{
+    opacity: 0.6;
+}
+#rock{
+background-color: #a200ff;
+}
+#paper{
+background-color: #9ee01a;
+}
+#scissors{
+background-color: #7dbeed;
+}
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+color:rgb(21, 64, 137)
+}
+
+.machine-score span {
+    color: rgb(224, 71, 15);
+}
